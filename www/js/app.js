@@ -41,6 +41,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
+  .state('app.questao', {
+    url: '/questao',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/questao.html'
+      }
+    }
+  })
+
   .state('app.browse', {
       url: '/browse',
       views: {
